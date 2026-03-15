@@ -1,4 +1,7 @@
 import HomeHero from "./Home/Hero"
-import Section1 from "./Home/section1"
+import PopularDishes from "./Home/PopularDishes"
+import ReservationForm from "./Home/TableOrder"
+import WhyUs from "./Home/WhyUs"
+import NewGallery from "./Home/NewGallery"
 
-export {HomeHero, Section1}
+export {HomeHero, PopularDishes, ReservationForm, WhyUs, NewGallery}

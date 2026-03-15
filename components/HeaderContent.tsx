@@ -1,6 +1,5 @@
 import { BasketIcon, LikeIcon, LogoIcon } from '@/icons'
 import Link from 'next/link'
-import React from 'react'
 import { BadgeAction } from '.'
 
 const HeaderContent = () => {

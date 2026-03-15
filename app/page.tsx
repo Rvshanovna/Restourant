@@ -1,10 +1,13 @@
-import { HomeHero, Section1 } from '@/modules'
+import { HomeHero, NewGallery, PopularDishes, ReservationForm, WhyUs } from '@/modules'
 
 const page = () => {
   return(
     <>
       <HomeHero />
-      <Section1 />
+      <PopularDishes />
+      <ReservationForm />
+      <WhyUs />
+      <NewGallery />
     </>
   )
 }
