@@ -27,7 +27,7 @@ const PopularDishes = () => {
 
             <div className="flex gap-20 text-black">
               <h3 className="font-semibold text-lg text-[20px]">{dish.title}</h3>
-              <Heart className="hover:text-red-500"/>
+              <Heart className="hover:text-red-500 transition-300"/>
             </div>
             <p className="text-sm text-gray-500 pr-30">{dish.description}</p>
             <div className="flex justify-between items-center w-full mt-4">

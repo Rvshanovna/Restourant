@@ -3,11 +3,14 @@ import { HomeHero, NewGallery, PopularDishes, ReservationForm, WhyUs } from '@/m
 const page = () => {
   return(
     <>
+    {/* Home page */}
       <HomeHero />
       <PopularDishes />
       <ReservationForm />
       <WhyUs />
       <NewGallery />
+
+      {/* Menu page */}
     </>
   )
 }
