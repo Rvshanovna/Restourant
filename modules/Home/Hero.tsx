@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" data-aos="fade-up">
       <div className="containers hero-bg pt-13.75 relative pb-25 px-17 rounded-[50px]">
         <HeaderContent />
         <div className="w-82 pt-45.25 pb-25">

@@ -1,10 +1,9 @@
 import { LogoIcon } from "@/icons";
-import Image from "next/image";
 import { FaTelegramPlane, FaWhatsapp, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-12 px-6 md:px-12 bg-white/20 backdrop-blur-lg border-t border-white/30">
+    <footer className="footerBg w-full py-12 px-6 md:px-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="flex flex-col gap-6">
           <LogoIcon />
@@ -22,7 +21,7 @@ const Footer = () => {
           <a href="#" className="hover:text-black transition text-[16px]">Сообщить об ошибке</a>
           <a href="#" className="hover:text-black transition text-[16px]">Условия услуг</a>
         </div>
-        <div className="flex flex-col gap-3 text-black/70">
+        <div className="flex flex-col gap-3  xczsatext-black/70">
           <h3 className="text-[25px] font-semibold text-black mb-2">Наша компания</h3>
           <a href="#" className="hover:text-black transition text-[16px]">Отчетность</a>
           <a href="#" className="hover:text-black transition text-[16px]">Свяжитесь с нами</a>

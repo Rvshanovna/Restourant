@@ -3,15 +3,15 @@ import { useState } from "react";
 
 const News = () => {
      const gallery = [
-        { id: 1, image: "/gallery1.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 2, image: "/gallery2.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 3, image: "/gallery3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 4, image: "/gallery1.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 5, image: "/gallery2.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 6, image: "/gallery3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 7, image: "/gallery3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 8, image: "/gallery3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
-        { id: 9, image: "/gallery3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 1, image: "/news1.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 2, image: "/news2.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 3, image: "/news3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 4, image: "/news1.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 5, image: "/news2.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 6, image: "/news3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 7, image: "/news3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 8, image: "/news3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
+        { id: 9, image: "/news3.png", description: "Используйте гибкие структуры...", avatar: "/avatarSergey.svg", name: "Сергей" },
       ];
     
       const itemsPerPage = 3;

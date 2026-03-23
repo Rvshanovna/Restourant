@@ -4,6 +4,7 @@ import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { cn } from "@/lib/utils";
+import AOSProvider from '@/components/AOSProvider';
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -32,10 +33,13 @@ export default function RootLayout({
   return (
     <html lang="ru" className={cn("font-sans", geist.variable)}>
       <body className={`${playfair.variable} ${montserrat.variable}`}>
-        <Header/>
-         {children}
-        <Footer/>
+        <AOSProvider>
+          <Header/>
+           {children}
+          <Footer/>
+        </AOSProvider>
       </body>
     </html>
   )
 }
+

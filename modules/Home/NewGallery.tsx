@@ -8,7 +8,7 @@ const NewsGallery = () => {
   const gallery = [
     {
       id: 1,
-      image: "/gallery1.png",
+      image: "/news1.png",
       description:
         "Используйте гибкие структуры, чтобы предоставить надежный обзор для обзоров высокого уровня.",
       avatar: "/avatarSergey.svg",
@@ -16,7 +16,7 @@ const NewsGallery = () => {
     },
     {
       id: 2,
-      image: "/gallery2.png",
+      image: "/news2.png",
       description:
         "Используйте гибкие структуры, чтобы предоставить надежный обзор для обзоров высокого уровня.",
       avatar: "/avatarSergey.svg",
@@ -24,7 +24,7 @@ const NewsGallery = () => {
     },
     {
       id: 3,
-      image: "/gallery3.png",
+      image: "/news3.png",
       description:
         "Используйте гибкие структуры, чтобы предоставить надежный обзор для обзоров высокого уровня.",
       avatar: "/avatarSergey.svg",
@@ -33,7 +33,7 @@ const NewsGallery = () => {
   ]
 
   return (
-    <section className="py-28">
+    <section className="py-12">
       <div className="containers">
         <Text title="Новости/Галерея" extraClass="text-center mb-32" />
         <div className="grid grid-cols-3 gap-16 justify-items-center">
