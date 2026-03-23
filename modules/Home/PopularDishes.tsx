@@ -6,7 +6,7 @@ import { Heart, ShoppingCart } from "lucide-react"
 const PopularDishes = () => {
   const dishes = [
     { id: 1, title: "Chicken soup", description: "Spicy with garlic", price: "$10.00", image: "/foodFirst.png" },
-    { id: 2, title: "Chicken soup", description: "Spicy with garlic", price: "$10.00", image: "/foodSecond.png" },
+    { id: 2, title: "Chicken soup", description: "Spicy with garlic", price: "$10.00", image: "/foodSecond.svg" },
     { id: 3, title: "Chicken soup", description: "Spicy with garlic", price: "$10.00", image: "/foodThird.png" },
     { id: 4, title: "Chicken soup", description: "Spicy with garlic", price: "$10.00", image: "/foodFirst.png" },
   ]
