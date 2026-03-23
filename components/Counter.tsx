@@ -14,7 +14,7 @@ const Counter = () => {
   };
 
   return (
-    <div className="flex items-center bg-gray-100 rounded-lg px-4 py-2 gap-4">
+    <div className="flex items-center bg-[#FFFFFF66] rounded-lg px-4 py-2 gap-4">
       <button onClick={decrement} className="text-lg">-</button>
       <span className="text-[24px]">{count}</span>
       <button onClick={increment} className="text-lg">+</button>
